@@ -32,7 +32,7 @@ class FullScreenImageView extends StatelessWidget {
                   value: progress.progress,
                 ),
               ),
-              imageUrl: image.imageUrl, // Full-screen image
+              imageUrl: image.imageUrl,
               fit: BoxFit.contain,
             ),
           ),

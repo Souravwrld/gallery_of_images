@@ -16,7 +16,7 @@ class PixabayService {
           'q': query,
           'image_type': 'photo',
           'page': page,
-          'per_page': 20, // Adjust this value based on your requirements
+          'per_page': 20,
         },
       );
 
