@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => ImageBloc(pixabayService: PixabayService()),
       child: MaterialApp(
-        home: ImageGalleryScreen(),
-      ),
+          home: ImageGalleryScreen(), debugShowCheckedModeBanner: false),
     );
   }
 }

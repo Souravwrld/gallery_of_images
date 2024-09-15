@@ -24,6 +24,7 @@ class _ImageGalleryScreenState extends State<ImageGalleryScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Image Gallery'),
+        backgroundColor: Colors.white10,
       ),
       body: Column(
         children: [

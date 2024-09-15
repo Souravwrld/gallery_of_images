@@ -11,7 +11,6 @@ class ImageModel {
     required this.views,
   });
 
-  // Factory constructor to create an instance from JSON
   factory ImageModel.fromJson(Map<String, dynamic> json) {
     return ImageModel(
       id: json['id'].toString(),

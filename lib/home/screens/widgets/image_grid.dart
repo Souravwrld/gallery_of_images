@@ -66,13 +66,7 @@ class ImageGrid extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text('${image.likes} Likes'),
-                      Text('${image.views} Views'),
-                    ],
-                  ),
+                  ImageInfoWidget(image: image),
                 ],
               ),
             ),
